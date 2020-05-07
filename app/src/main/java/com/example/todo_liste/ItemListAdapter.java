@@ -13,6 +13,16 @@ import java.util.ArrayList;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+/**
+ * @author Willi Hollatz
+ * SMSB4, 17952
+ *
+ * Quellen / Hilfen :
+ * https://www.youtube.com/watch?v=E6vE8fqQPTE
+ * https://www.youtube.com/watch?v=SLFrwl1hFcw
+ * https://www.youtube.com/watch?v=5Tm--PHhbJo
+ */
+
 public class ItemListAdapter extends ArrayAdapter<Item> {
 
     private Context context;

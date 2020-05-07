@@ -2,6 +2,11 @@ package com.example.todo_liste;
 
 import androidx.annotation.NonNull;
 
+/**
+ * @author Willi Hollatz
+ * SMSB4, 17952
+ */
+
 public class Item {
 
     private String title;

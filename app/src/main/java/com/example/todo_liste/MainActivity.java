@@ -14,6 +14,16 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+/**
+ * @author Willi Hollatz
+ * SMSB4, 17952
+ *
+ * Quellen / Hilfen :
+ * https://www.youtube.com/watch?v=E6vE8fqQPTE
+ * https://www.youtube.com/watch?v=SLFrwl1hFcw
+ * https://www.youtube.com/watch?v=5Tm--PHhbJo
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     private Button addBtn;
@@ -70,10 +80,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-
-
     private void openDetailActivity() {
         startActivityForResult(new Intent(this, DetailActivity.class), 0);
     }
@@ -115,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
             resultIntent.putExtra("Date", date);
 
             setResult(RESULT_OK, resultIntent);
-            finish();
+
 
     }
 }

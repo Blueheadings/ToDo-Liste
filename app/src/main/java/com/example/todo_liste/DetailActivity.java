@@ -16,6 +16,12 @@ import android.widget.Toast;
 
 import java.util.Calendar;
 
+/**
+ * @author Willi Hollatz
+ * SMSB4, 17952
+ * https://www.youtube.com/watch?v=AD5qt7xoUU8&feature=youtu.be
+ */
+
 public class DetailActivity extends AppCompatActivity {
 
     private Button hinzufügenBtn;
